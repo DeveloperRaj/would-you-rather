@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
+
+.option-container {
+	width: 100%;
+	height: 45%;
+	/*background: #41337A;*/
+	color: #eee;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 22px;
+	text-align: center;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.option-container p {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.1s;
+}
