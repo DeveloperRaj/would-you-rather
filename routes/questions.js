@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+// Route for questions
 const QuestionSet = require('../models/Question.js');
 
 router.get('/', async (req, res) => {
